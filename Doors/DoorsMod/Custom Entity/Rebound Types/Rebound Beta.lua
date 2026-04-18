@@ -1,13 +1,11 @@
----====== Load spawner ======---
-
 local spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Focuslol666/Utilities/refs/heads/patch-1/Doors/Entity%20Spawner/V2/Source.lua"))()
 
 ---====== Create entity ======---
 
 local entity = spawner.Create({
 	Entity = {
-		Name = "Template Entity",
-		Asset = "https://github.com/Focuslol666/Utilities/raw/patch-1/Doors/Entity%20Spawner/Assets/Entities/Rush.rbxm",
+		Name = "Rebound",
+		Asset = "rbxassetid://16167842341",
 		HeightOffset = 0
 	},
 	Lights = {
